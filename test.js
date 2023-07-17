@@ -109,3 +109,25 @@ executeQuery(query, binds)
   });
 
 
+// Map
+const map = new Map();
+map.set('key1', 'value1');
+map.set('key2', 'value2');
+console.log(map.get('key1')); // Output: value1
+
+// Set
+const set = new Set();
+set.add(1);
+set.add(2);
+set.add(3);
+console.log(set.has(2)); // Output: true
+
+// Before
+// const name = 'John';
+// const age = 30;
+// const person = { name: name, age: age };
+
+// // After
+// const name = 'John';
+// const age = 30;
+// const person = { name, age };
